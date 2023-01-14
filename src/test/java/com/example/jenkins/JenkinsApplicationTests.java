@@ -1,5 +1,7 @@
 package com.example.jenkins;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -9,7 +11,7 @@ class JenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 
-		System.out.println("Ejecutanto test");
+		assertEquals(1, 1);
 	}
 
 }
