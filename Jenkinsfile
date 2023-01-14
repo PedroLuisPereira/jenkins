@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 //echo 'Building..'
-                bat "mnv clean install"
+                bat "mvn clean install"
             }
         }
         stage('Deploy') {
